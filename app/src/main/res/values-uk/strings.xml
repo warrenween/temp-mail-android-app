@@ -1,0 +1,41 @@
+<resources>
+    <!-- Main-->
+    <string name="your_temporary_email_address">Ваша Тимчасова Адреса Пошти</string>
+    <string name="check_your_email">Перевірити свою пошту</string>
+    <string name="your_email_will_be_here">Ваша електронна адреса буде тут</string>
+    <string name="domains_loading_problem">Деякі проблеми із завантаженням доменів</string>
+    <string name="email_copied">Пошта скопійована!</string>
+    <string name="progress_dialog_title">Будь ласка, зачекайте</string>
+    <string name="progress_dialog_message">Отримання даних …</string>
+    <string name="change">Змінити</string>
+    <string name="copy">Скопіювати</string>
+
+    <!-- TellWhatThing-->
+    <string name="tell_dialog_title">Скажіть нам, що ви думаєте</string>
+    <string name="tell_dialog_question">Як TempMail працює?</string>
+    <string name="good">Добре</string>
+    <string name="bad">Погано</string>
+
+    <!-- RatingDialog-->
+    <string name="rating_dialog_title">Дякуюємо</string>
+    <string name="rating_dialog_question">Як би ви оцінили додаток?</string>
+    <string name="submit">Відправити</string>
+    <string name="not_now">Не зараз</string>
+
+    <!--HelpImproveDialog-->
+    <string name="help_improve_dialog_title">Допоможіть нам поліпшити</string>
+    <string name="help_improve_dialog_question">Надіслати зворотний зв\'язок</string>
+    <string name="sure">Звісно</string>
+
+
+    <!--SimpleDialog-->
+    <string name="try_again">Спробуйте ще раз</string>
+    <string name="network_error">Помилка мережі</string>
+    <string name="check_network_connection">Перевірте підключення до мережі</string>
+    <string name="get_domains_error_title">Проблеми із завантаженням даних</string>
+    <string name="get_domains_error_message">Неможливо отримати список доменів. Спробуйте ще раз.</string>
+
+    <!--PushNotification-->
+    <string name="new_mail">У вас є новий лист. Натисніть для перегляду.</string>
+
+</resources>

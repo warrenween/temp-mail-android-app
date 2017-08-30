@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tempmail.fragments.MainFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/iv_title_margin_top"
+            app:srcCompat="@drawable/logo_thin" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_buttons"
+            android:layout_below="@+id/iv_title"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/content_margin"
+            android:layout_marginTop="@dimen/content_margin"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/your_temporary_email_address"
+                android:textSize="@dimen/tv_tip_text_size" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_tip"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/tv_email_margin_top"
+                android:maxLines="2"
+                android:text="andrewlotar1990@gmail.com"
+                android:ellipsize="middle"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tv_email_text_size"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/buttons_margin_bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_change_background"
+                android:elevation="10dp"
+                android:paddingLeft="@dimen/copy_change_button_padding"
+                android:paddingRight="@dimen/copy_change_button_padding"
+                android:text="@string/change"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/copy_change_button_text_size"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_copy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/copy_button_margin_left"
+                android:background="@drawable/btn_save_background"
+                android:elevation="10dp"
+                android:paddingLeft="@dimen/copy_change_button_padding"
+                android:paddingRight="@dimen/copy_change_button_padding"
+                android:text="@string/copy"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/copy_change_button_text_size"
+                tools:ignore="ButtonStyle"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark">
+
+        <Button
+            android:id="@+id/bnt_check_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/iv_check_mail_margin_top_bottom"
+            android:background="@drawable/btn_mail_selector"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/iv_check_mail_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bnt_check_mail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/tv_check_mail_margin_top"
+            android:text="@string/check_your_email"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/tv_check_your_email_text_size" />
+
+    </RelativeLayout>
+
+</LinearLayout>

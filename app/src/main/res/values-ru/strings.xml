@@ -1,0 +1,36 @@
+<resources>
+    <!-- Main -->
+    <string name="your_temporary_email_address">Ваша Временная Почта</string>
+    <string name="check_your_email">Проверить почту</string>
+    <string name="your_email_will_be_here">Здесь будет ваша почта</string>
+    <string name="domains_loading_problem">Проблемы с загрузкой доменов</string>
+    <string name="email_copied">Почта скопирована</string>
+    <string name="progress_dialog_title">Подождите</string>
+    <string name="progress_dialog_message">Загрузка…</string>
+    <string name="change">Сменить</string>
+    <string name="copy">Скопировать</string>
+    <!-- TellWhatThing -->
+    <string name="tell_dialog_title">Ваше мнение</string>
+    <string name="tell_dialog_question">Как работает приложение?</string>
+    <string name="good">Хорошо</string>
+    <string name="bad">Плохо</string>
+    <!-- RatingDialog -->
+    <string name="rating_dialog_title">Спасибо</string>
+    <string name="rating_dialog_question">Как бы вы оценили приложение?</string>
+    <string name="submit">Отправить</string>
+    <string name="not_now">Не сейчас</string>
+    <!-- HelpImproveDialog -->
+    <string name="help_improve_dialog_title">Сделайте нас лучше</string>
+    <string name="help_improve_dialog_question">Отошлите отзыв</string>
+    <string name="sure">Конечно</string>
+    <!-- SimpleDialog -->
+    <string name="try_again">Попробуйте еще раз</string>
+    <string name="network_error">Ошибка сети</string>
+    <string name="check_network_connection">Проверьте подключение к сети</string>
+    <string name="get_domains_error_title">Проблема с загрузкой данных</string>
+    <string name="get_domains_error_message">Невозможно получить список доменов. Пожалуйста, попробуйте еще раз.</string>
+
+    <!--PushNotification-->
+    <string name="new_mail">У вас новая почта. Перейдите для прочтения</string>
+
+</resources>

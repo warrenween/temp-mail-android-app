@@ -1,0 +1,44 @@
+<resources>
+
+
+    <!-- Main-->
+    <string name="your_temporary_email_address">כתובת הדוא"ל הזמנית</string>
+    <string name="check_your_email">לבדוק דואר</string>
+    <string name="your_email_will_be_here">האימייל שלך יהיה כאן</string>
+    <string name="domains_loading_problem">בעיות עם טעינת דימיינים</string>
+    <string name="email_copied">דוא"ל הועתק!</string>
+    <string name="progress_dialog_title">המתן בבקשה</string>
+    <string name="progress_dialog_message">קבלת נתונים …</string>
+    <string name="change">החלף</string>
+    <string name="copy">העתק</string>
+
+    <!-- TellWhatThing-->
+    <string name="tell_dialog_title">ספר לנו מה אתה חושב</string>
+    <string name="tell_dialog_question">איך TempMail עובד?</string>
+    <string name="good">טוב</string>
+    <string name="bad">לא טוב</string>
+
+    <!-- RatingDialog-->
+    <string name="rating_dialog_title">תודה</string>
+    <string name="rating_dialog_question">כיצד היית מדרג את החוויה שלך?</string>
+    <string name="submit">שלח</string>
+    <string name="not_now">לא עכשיו</string>
+
+    <!--HelpImproveDialog-->
+    <string name="help_improve_dialog_title">עזרו לנו לשפר את</string>
+    <string name="help_improve_dialog_question">שלח משוב מהיר</string>
+    <string name="sure">בכיף</string>
+
+
+    <!--SimpleDialog-->
+    <string name="try_again">נסה שוב</string>
+    <string name="network_error">בעיה ברשת</string>
+    <string name="check_network_connection">בדוק את החיבור לרשת שלך</string>
+    <string name="get_domains_error_title">בעיה עם טעינת נתונים</string>
+    <string name="get_domains_error_message">לא ניתן לקבל רשימת דומיינים. בבקשה נסה שוב.</string>
+
+    <!--PushNotification-->
+    <string name="new_mail">יש לך דואר חדש, לחץ לפתיחה</string>
+
+
+</resources>

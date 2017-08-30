@@ -1,0 +1,36 @@
+<resources>
+    <!-- Main -->
+    <string name="your_temporary_email_address">عنوان البريد الإلكتروني الخاص بك مؤقت</string>
+    <string name="check_your_email">تحقق من بريدك الالكتروني</string>
+    <string name="your_email_will_be_here">سوف البريد الإلكتروني الخاص بك سيكون هنا</string>
+    <string name="domains_loading_problem">بعض المشاكل مع المجالات تحميل</string>
+    <string name="email_copied">البريد الإلكتروني نسخ!</string>
+    <string name="progress_dialog_title">أرجو الإنتظار</string>
+    <string name="progress_dialog_message">الحصول على البيانات …</string>
+    <string name="change">تغيير</string>
+    <string name="copy">نسخ</string>
+    <!-- TellWhatThing -->
+    <string name="tell_dialog_title">يقول لنا ما رأيك</string>
+    <string name="tell_dialog_question">كيف يعمل TempMail؟</string>
+    <string name="good">جيد</string>
+    <string name="bad">سيئة</string>
+    <!-- RatingDialog -->
+    <string name="rating_dialog_title">شكر</string>
+    <string name="rating_dialog_question">كيف تقيم تجربة TempMail الخاصة بك؟</string>
+    <string name="submit">عرض</string>
+    <string name="not_now">ليس الان</string>
+    <!-- HelpImproveDialog -->
+    <string name="help_improve_dialog_title">تساعدنا على تحسين</string>
+    <string name="help_improve_dialog_question">ارسال ردود فعل سريع</string>
+    <string name="sure">بالتأكيد</string>
+    <!-- SimpleDialog -->
+    <string name="try_again">حاول ثانية</string>
+    <string name="network_error">خطأ في الشبكة</string>
+    <string name="check_network_connection">يرجى التحقق من الاتصال بالشبكة</string>
+    <string name="get_domains_error_title">بعض المشاكل مع تحميل البيانات</string>
+    <string name="get_domains_error_message">لا يمكن الحصول على قائمة المجالات. حاول مرة اخرى.</string>
+
+    <!--PushNotification-->
+    <string name="new_mail">لديك بريد جديد، انقر فوق لفتح</string>
+
+</resources>

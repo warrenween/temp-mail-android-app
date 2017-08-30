@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3498DB</color>
+    <color name="colorPrimaryDark">#34495E</color>
+    <color name="colorAccent">#1ABC9C</color>
+
+    <color name="colorGray">#F6F6F6</color>
+    <color name="colorGreen">#239587</color>
+
+    <color name="colorBlackTransparent">#77000000</color>
+
+    <color name="ratingBarEmpty">@android:color/holo_orange_light</color>
+    <color name="ratingBarFilled">@android:color/holo_orange_dark</color>
+
+
+</resources>

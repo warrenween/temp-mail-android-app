@@ -1,0 +1,37 @@
+<resources>
+    <!-- Main -->
+    <string name="your_temporary_email_address">Votre Adresse Email Temporaire</string>
+    <string name="check_your_email">Vérifiez votre email</string>
+    <string name="your_email_will_be_here">Votre email sera ici</string>
+    <string name="domains_loading_problem">Quelques problèmes avec les domaines de chargement</string>
+    <string name="email_copied">Email copié!</string>
+    <string name="progress_dialog_title">S\'il vous plaît, attendez</string>
+    <string name="progress_dialog_message">Obtenir des données …</string>
+    <string name="change">Retour</string>
+    <string name="copy">Copier</string>
+    <!-- TellWhatThing -->
+    <string name="tell_dialog_title">Dites-nous ce que vous pensez</string>
+    <string name="tell_dialog_question">Comment TempMail fonctionne?</string>
+    <string name="good">Bien</string>
+    <string name="bad">Mal</string>
+    <!-- RatingDialog -->
+    <string name="rating_dialog_title">Merci</string>
+    <string name="rating_dialog_question">Comment évalueriez-vous votre expérience TempMail?</string>
+    <string name="submit">Soumettre</string>
+    <string name="not_now">Pas maintenant</string>
+    <!-- HelpImproveDialog -->
+    <string name="help_improve_dialog_title">Aidez-nous à améliorer</string>
+    <string name="help_improve_dialog_question">Envoyer un feedback rapide</string>
+    <string name="sure">Sûr</string>
+    <!-- SimpleDialog -->
+    <string name="try_again">Réessayer</string>
+    <string name="network_error">Erreur de réseau</string>
+    <string name="check_network_connection">Vérifiez votre connexion réseau</string>
+    <string name="get_domains_error_title">Quelque problème avec le chargement des données</string>
+    <string name="get_domains_error_message">Impossible d\'obtenir la liste des domaines. Veuillez réessayer.</string>
+
+
+    <!--PushNotification-->
+    <string name="new_mail">Vous avez un nouveau courriel, cliquez pour ouvrir</string>
+
+</resources>

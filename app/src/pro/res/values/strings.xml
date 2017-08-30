@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TempMail Pro</string>
+
+    <!--ChangeEmail Dialog-->
+    <string name="change_email_title">Change e-mail address</string>
+    <string name="change_email_message">Please enter the desired E-mail address and then click on Save.</string>
+    <string name="save">Save</string>
+    <string name="domain_title">Domain:</string>
+    <string name="login_title">Login:</string>
+    <string name="wrong_login">Login should contain at least one symbol</string>
+    <string name="wrong_email">Login is not valid</string>
+    <string name="emails_list">Emails List</string>
+    <string name="emails_list_empty">There are no emails yet</string>
+
+    <string name="subject">Subject:</string>
+    <string name="from">From:</string>
+
+</resources>

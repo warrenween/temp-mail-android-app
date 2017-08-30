@@ -1,0 +1,36 @@
+<resources>
+    <!-- Main -->
+    <string name="your_temporary_email_address">Uw Tijdelijk Email Adres</string>
+    <string name="check_your_email">Bekijk je email</string>
+    <string name="your_email_will_be_here">Uw email zal hier</string>
+    <string name="domains_loading_problem">Sommige problemen met het laden van domeinen</string>
+    <string name="email_copied">Email gekopieerd!</string>
+    <string name="progress_dialog_title">Even geduld aub</string>
+    <string name="progress_dialog_message">Het krijgen van gegevens …</string>
+    <string name="change">Wijzig</string>
+    <string name="copy">Kopiëren</string>
+    <!-- TellWhatThing -->
+    <string name="tell_dialog_title">Vertel ons wat je denkt</string>
+    <string name="tell_dialog_question">Hoe TempMail werkt?</string>
+    <string name="good">Goed</string>
+    <string name="bad">Slecht</string>
+    <!-- RatingDialog -->
+    <string name="rating_dialog_title">Bedankt</string>
+    <string name="rating_dialog_question">Hoe zou u uw TempMail ervaring?</string>
+    <string name="submit">Voorleggen</string>
+    <string name="not_now">Niet nu</string>
+    <!-- HelpImproveDialog -->
+    <string name="help_improve_dialog_title">Help ons te verbeteren</string>
+    <string name="help_improve_dialog_question">Te sturen een snelle terugkoppeling</string>
+    <string name="sure">Natuurlijk</string>
+    <!-- SimpleDialog -->
+    <string name="try_again">Probeer opnieuw</string>
+    <string name="network_error">Netwerkfout</string>
+    <string name="check_network_connection">Controleer uw netwerkverbinding</string>
+    <string name="get_domains_error_title">Een probleem met het laden van data</string>
+    <string name="get_domains_error_message">Kan domeinen lijst krijgen. Probeer het opnieuw.</string>
+
+    <!--PushNotification-->
+    <string name="new_mail">U hebt nieuwe e-mail, klik om te openen</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="temp_email_link" translatable="false">https://temp-mail.org/%1$s/?email=%2$s&amp;app=1</string>
+    <string name="default_language" translatable="false">en</string>
+
+    <string name="appodeal_key" translatable="false">c924a02882e30c7be3a7da51a69533a948d88e06a9995f7c</string>
+    <string name="ad_settings_link" translatable="false">http://d1uvhm532ipx9t.cloudfront.net/android/</string>
+    <string name="ad_settings_file_name" translatable="false">ads.txt</string>
+
+    <string name="banner_type" translatable="false">banner</string>
+    <string name="url_type" translatable="false">url</string>
+    <string name="interstial_type" translatable="false">interstial</string>
+
+    <string name="login" translatable="false">8c8808a0-a47d-4091-9e3d-88e0603eb369</string>
+    <string name="password" translatable="false">jeY2STYb2</string>
+
+    <string-array name="covered_languages" translatable="false">
+        <item>en</item>
+        <item>es</item>
+        <item>nl</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>it</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ru</item>
+        <item>sr</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>ar</item>
+    </string-array>
+</resources>

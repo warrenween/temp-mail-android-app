@@ -1,0 +1,36 @@
+<resources>
+    <!-- Main -->
+    <string name="your_temporary_email_address">Ваш Привремена Емаил Адреса</string>
+    <string name="check_your_email">Проверите е-пошту</string>
+    <string name="your_email_will_be_here">Ваша емаил ће бити овде</string>
+    <string name="domains_loading_problem">Неки проблеми са утоваром доменима</string>
+    <string name="email_copied">Емаил Копирано!</string>
+    <string name="progress_dialog_title">Молимо, сачекајте</string>
+    <string name="progress_dialog_message">Преузимање података …</string>
+    <string name="change">Промена</string>
+    <string name="copy">Копија</string>
+    <!-- TellWhatThing -->
+    <string name="tell_dialog_title">Реците нам шта мислите</string>
+    <string name="tell_dialog_question">Како TempMail ради?</string>
+    <string name="good">Добро</string>
+    <string name="bad">Лоше</string>
+    <!-- RatingDialog -->
+    <string name="rating_dialog_title">Хвала</string>
+    <string name="rating_dialog_question">Како бисте оценили свој TempMail искуство?</string>
+    <string name="submit">Поднети</string>
+    <string name="not_now">Не сада</string>
+    <!-- HelpImproveDialog -->
+    <string name="help_improve_dialog_title">Помозите нам да се побољша</string>
+    <string name="help_improve_dialog_question">Пошаљи брзу повратну информацију</string>
+    <string name="sure">Наравно</string>
+    <!-- SimpleDialog -->
+    <string name="try_again">Покушајте поново</string>
+    <string name="network_error">Грешка на мрежи</string>
+    <string name="check_network_connection">Проверите мрежну конекцију</string>
+    <string name="get_domains_error_title">Неки проблем са лоадинг подацима</string>
+    <string name="get_domains_error_message">Не може да добити списак домаинс. Покушајте поново.</string>
+
+    <!--PushNotification-->
+    <string name="new_mail">Имате нову е-пошту, кликните на дугме за отварање</string>
+
+</resources>

@@ -1,0 +1,119 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.22.0'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    maven { url 'https://zendesk.artifactoryonline.com/zendesk/repo' }
+}
+
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'TempMail'
+            keyPassword 'hbS8dzL4phAUCC8r'
+            storePassword 'mjrvQFAat4tDd4wh'
+            storeFile file('keystore.jks')
+        }
+        configPro {
+            keyAlias 'keyPro'
+            keyPassword 'eDmc3yxu3S3VJq8L'
+            storeFile file('E:/Android/TempMail/app/keystorePro.jks')
+            storePassword 'fEk3EHHd6AaYkcTQ'
+        }
+    }
+    compileSdkVersion 24
+    buildToolsVersion "25.0.0"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 24
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+
+    productFlavors {
+        free {
+            versionCode 17
+            versionName "1.16"
+            applicationId "com.tempmail"
+
+        }
+        pro {
+            versionCode 1
+            versionName "1.00"
+            applicationId "com.tempmailpro"
+        }
+    }
+
+    buildTypes {
+        release {
+            //TODO:CHANGE
+            debuggable false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            productFlavors.free.signingConfig signingConfigs.config
+            productFlavors.pro.signingConfig signingConfigs.configPro
+            applicationVariants.all { variant ->
+                renameAPK(variant, name)
+            }
+        }
+        debug {
+            debuggable true
+            minifyEnabled false
+            applicationVariants.all { variant ->
+                renameAPK(variant, name)
+            }
+        }
+    }
+}
+
+    def renameAPK(variant, applicationName) {
+        variant.outputs.each { output ->
+            def file = output.packageApplication.outputFile
+            def fileName = applicationName + "_" + variant.versionName + ".apk"
+            output.packageApplication.outputFile = new File(file.parent, fileName)
+        }
+    }
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    freeCompile fileTree(include: ['*.jar'], dir: 'src/free/libs')
+    freeCompile project(':adcolony-sdk-3.1.2')
+    freeCompile project(':facebook-audience-network-4.22.0')
+    freeCompile 'com.squareup.picasso:picasso:2.5.2'
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.5@aar') {
+        transitive = true;
+    }
+    compile 'com.zendesk:sdk:1.9.0.1'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.jakewharton.retrofit:retrofit1-okhttp3-client:1.0.2'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.github.satyan:sugar:1.4'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'me.leolin:ShortcutBadger:1.1.10@aar'
+    compile 'com.google.firebase:firebase-core:10.0.1'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    compile 'com.android.support:support-v4:24.2.1'
+    freeCompile 'com.google.android.gms:play-services-ads:10.0.1'
+    freeCompile 'com.google.android.gms:play-services-location:10.0.1'
+}
+
+apply plugin: 'com.google.gms.google-services'

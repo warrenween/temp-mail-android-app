@@ -1,0 +1,44 @@
+<resources>
+
+
+    <!-- Main-->
+    <string name="your_temporary_email_address">Your Temporary Email Address</string>
+    <string name="check_your_email">Check your email</string>
+    <string name="your_email_will_be_here">Your email will be here</string>
+    <string name="domains_loading_problem">Some problems with domains loading</string>
+    <string name="email_copied">Email copied!</string>
+    <string name="progress_dialog_title">Please, wait</string>
+    <string name="progress_dialog_message">Getting data…</string>
+    <string name="change">Change</string>
+    <string name="copy">Copy</string>
+
+    <!-- TellWhatThing-->
+    <string name="tell_dialog_title">Tell us what do you think</string>
+    <string name="tell_dialog_question">How TempMail works?</string>
+    <string name="good">Good</string>
+    <string name="bad">Bad</string>
+
+    <!-- RatingDialog-->
+    <string name="rating_dialog_title">Thanks</string>
+    <string name="rating_dialog_question">How would you rate your experience?</string>
+    <string name="submit">Submit</string>
+    <string name="not_now">Not now</string>
+
+    <!--HelpImproveDialog-->
+    <string name="help_improve_dialog_title">Help us to improve</string>
+    <string name="help_improve_dialog_question">Send a fast feedback</string>
+    <string name="sure">Sure</string>
+
+
+    <!--SimpleDialog-->
+    <string name="try_again">Try again</string>
+    <string name="network_error">Network error</string>
+    <string name="check_network_connection">Please check your network connection</string>
+    <string name="get_domains_error_title">Some problem with loading data</string>
+    <string name="get_domains_error_message">Can\'t get domains list. Please try again.</string>
+
+    <!--PushNotification-->
+    <string name="new_mail">You have new mail, click to open</string>
+
+
+</resources>

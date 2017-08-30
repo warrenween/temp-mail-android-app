@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!--Main -->
+    <dimen name="tv_email_text_size">36sp</dimen>
+    <dimen name="tv_tip_text_size">24sp</dimen>
+    <dimen name="iv_check_mail_text_size">24sp</dimen>
+    <dimen name="tv_check_your_email_text_size">24sp</dimen>
+    <dimen name="iv_title_margin_top">60dp</dimen>
+    <dimen name="buttons_margin_bottom">52dp</dimen>
+    <dimen name="iv_check_mail_margin_top_bottom">60dp</dimen>
+    <dimen name="tv_check_mail_margin_top">30dp</dimen>
+    <dimen name="content_margin">30dp</dimen>
+    <dimen name="tv_email_margin_top">45dp</dimen>
+    <dimen name="copy_button_margin_left">30dp</dimen>
+    <dimen name="copy_change_button_text_size">36sp</dimen>
+</resources>

@@ -1,0 +1,131 @@
+{
+  "project_info": {
+    "project_number": "687572844654",
+    "firebase_url": "https://tempmail-ed41f.firebaseio.com",
+    "project_id": "tempmail-ed41f",
+    "storage_bucket": "tempmail-ed41f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687572844654:android:551cf14c16a3b71b",
+        "android_client_info": {
+          "package_name": "com.tempmail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687572844654-hub1nkj40jl52hoe28ufrtf1aubkujs3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tempmail",
+            "certificate_hash": "6f1826b366f81a586f626461bce771735f23517a"
+          }
+        },
+        {
+          "client_id": "687572844654-o9d31020dsob2befl1lunhb7b3virc95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tempmail",
+            "certificate_hash": "4b8cab37e23262a33bb5cdda0c8f4408393b3053"
+          }
+        },
+        {
+          "client_id": "687572844654-q8i2geia9jh447ij3ve8qlcrs3f85rgl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz-ohCnvLBMDewwlMh6EBoCrOjQ5S8Wag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687572844654-c68pfrcjnbj2muaotecdkbkvhi6ukof5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tempmail.ios",
+                "app_store_id": "1214259095"
+              }
+            },
+            {
+              "client_id": "687572844654-q8i2geia9jh447ij3ve8qlcrs3f85rgl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687572844654:android:2351aec6d53cf1aa",
+        "android_client_info": {
+          "package_name": "com.tempmailpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687572844654-o3rmpestdten23i9jmlidq8f2rpgp6pg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tempmailpro",
+            "certificate_hash": "4b8cab37e23262a33bb5cdda0c8f4408393b3053"
+          }
+        },
+        {
+          "client_id": "687572844654-ickhc23f303knnimhdp4qa3gg4ai5eck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tempmailpro",
+            "certificate_hash": "eb363b6ccdeef23f5bd932bbbac834249f2bdec5"
+          }
+        },
+        {
+          "client_id": "687572844654-q8i2geia9jh447ij3ve8qlcrs3f85rgl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz-ohCnvLBMDewwlMh6EBoCrOjQ5S8Wag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687572844654-c68pfrcjnbj2muaotecdkbkvhi6ukof5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tempmail.ios",
+                "app_store_id": "1214259095"
+              }
+            },
+            {
+              "client_id": "687572844654-q8i2geia9jh447ij3ve8qlcrs3f85rgl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

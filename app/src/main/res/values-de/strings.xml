@@ -1,0 +1,35 @@
+<resources>
+    <!-- Main -->
+    <string name="your_temporary_email_address">Ihre Temporäre E-Mail Adresse</string>
+    <string name="check_your_email">Prüfen Sie Ihre E-Mail</string>
+    <string name="your_email_will_be_here">Ihre E-Mail wird hier sein</string>
+    <string name="domains_loading_problem">Einige Probleme mit dem Laden von Domains</string>
+    <string name="email_copied">E-Mail kopiert!</string>
+    <string name="progress_dialog_title">Warten Sie mal</string>
+    <string name="progress_dialog_message">Daten werden abgerufen …</string>
+    <string name="change">Veränderung</string>
+    <string name="copy">Kopie</string>
+    <!-- TellWhatThing -->
+    <string name="tell_dialog_title">Sagen Sie uns, was Sie denken</string>
+    <string name="tell_dialog_question">Wie TempMail funktioniert?</string>
+    <string name="good">Gut</string>
+    <string name="bad">Schlecht</string>
+    <!-- RatingDialog -->
+    <string name="rating_dialog_title">Vielen Dank</string>
+    <string name="rating_dialog_question">Wie würden Sie Ihre TempMail Erfahrung einschätzen?</string>
+    <string name="submit">Einreichen</string>
+    <string name="not_now">Nicht jetzt</string>
+    <!-- HelpImproveDialog -->
+    <string name="help_improve_dialog_title">Helfen Sie uns zu verbessern</string>
+    <string name="help_improve_dialog_question">Senden Sie ein schnelles Feedback</string>
+    <string name="sure">Sicher</string>
+    <!-- SimpleDialog -->
+    <string name="try_again">Versuch es noch einmal</string>
+    <string name="network_error">Netzwerkfehler</string>
+    <string name="check_network_connection">Überprüfen Sie Ihre Netzwerkverbindung</string>
+    <string name="get_domains_error_title">Einige Problem mit Laden von Daten</string>
+    <string name="get_domains_error_message">Domain-Liste kann nicht abgerufen werden. Bitte versuche es erneut.</string>
+
+    <!--PushNotification-->
+    <string name="new_mail">Sie haben eine neue E-Mail, klicken zum Öffnen</string>
+</resources>

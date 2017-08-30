@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTheme">@style/MyApp.ActionBarTheme</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTheme">@style/MyApp.ActionBarTheme</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTheme">@style/MyApp.ActionBarTheme</item>
+    </style>
+
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="titleTextStyle">@style/MyTitleTextStyle</item>
+        <item name="android:titleTextStyle">@style/MyTitleTextStyle</item>
+    </style>
+
+
+    <style name="MyTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MyApp.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- THIS is where you can color the arrow! -->
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/ratingBarEmpty</item>
+        <item name="colorControlActivated">@color/ratingBarFilled</item>
+    </style>
+
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.MinWidth"></style>
+
+</resources>

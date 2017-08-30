@@ -1,0 +1,8 @@
+<resources>
+    <!--ChangeEmail Dialog-->
+    <dimen name="change_email_message_top_margin">5dp</dimen>
+    <dimen name="change_email_block_top_margin">10dp</dimen>
+    <dimen name="change_email_login_domain_top_margin">3dp</dimen>
+    <dimen name="change_email_text_padding">10dp</dimen>
+
+</resources>
